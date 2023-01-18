@@ -1,4 +1,6 @@
-import { SQSEvent, Context } from "aws-lambda";
+import { SQSEvent, Context } from "aws-lambda"
 
-export async function handler(event: SQSEvent, context: Context): Promise<void> {
-}
+export async function handler(
+  event: SQSEvent,
+  context: Context
+): Promise<void> {}
