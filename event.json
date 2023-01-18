@@ -1,0 +1,94 @@
+{
+    "schema_version": 2,
+    "environment": "production",
+    "device_info": {
+        "brand": "iPhone6,1",
+        "product": "iPhone6,1",
+        "device": "John's iPhone 5s",
+        "android_uuid": "",
+        "device_manufacturer": "Apple",
+        "platform": "iOS",
+        "os_version": "7.1.1",
+        "device_model": "iPhone6,1",
+        "screen_height": 1136,
+        "screen_width": 640,
+        "screen_dpi": 160,
+        "device_country": "USA",
+        "locale_language": "en",
+        "locale_country": "US",
+        "network_country": "us",
+        "network_carrier": "AT&T",
+        "network_code": "410",
+        "network_mobile_country_code": "310",
+        "timezone_offset": -4,
+        "build_identifier": "M4-rc20",
+        "http_header_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 mParticle/2.5.0",
+        "ios_advertising_id": "613ff528-afd1-4c1b-9628-e6ed25ece9c0",
+        "att_authorization_status": "authorized",
+        "att_timestamp_unixtime_ms": 1614187122051,
+        "push_token": "<e481f135 9629f0c3 fb634be0 82ca18b1 73ea45a2 b0b96a6e 2a00c829 bc9ff6eb>",
+        "cpu_architecture": "arm64",
+        "is_tablet": false,
+        "push_notification_sound_enabled": true,
+        "push_notification_vibrate_enabled": false,
+        "radio_access_technology": "LTE",
+        "supports_telephony": "",
+        "has_nfc": false,
+        "bluetooth_enabled": true,
+        "bluetooth_version": "",
+        "ios_idfv": "8c61383f-2216-4713-8c1c-1cb0a5d7a4cc",
+        "android_advertising_id": "",
+        "limit_ad_tracking": false,
+        "is_dst": false
+    },
+    "application_info": {
+        "application_name": "App Name",
+        "application_version": "1.0.1",
+        "application_build_number": "42",
+        "install_referrer": "utm_campaign=my_campaign&utm_source=google&utm_medium=cpc&utm_term=my_keyword&utm_content=ad_variation1",
+        "package": "com.newco.myapp"
+    },
+    "user_attributes": {
+        "$age": "18",
+        "$gender": "M",
+        "$country": "USA",
+        "$zip": "10016",
+        "$city": "New York",
+        "$state": "NY",
+        "$address": "381 Nnncj Avenue S",
+        "$firstname": "John",
+        "$lastname": "Doe",
+        "$mobile": "123-456-7890",
+        "a_custom_attribute": "some_value",
+        "a_custom_list": [
+            "value1",
+            "value2",
+            "valueN"
+        ]
+    },
+    "user_identities": {
+        "customer_id": "1234",
+        "email": "helpers@test.com",
+        "account_id": "4321"
+    },
+    "partner_identities": {
+        "partner_id": "1234"
+    },
+    "event": {
+        "data": {
+            "timestamp_unixtime_ms": 1432825980486,
+            "source_message_id": "4e34bef3-d2f9-4f07-8298-4646cce292fa",
+            "session_uuid": "DDFBEA89-9A54-41C3-97F3-334FDD3B98BC",
+            "trade_instrument_code": "AUX0-M",
+            "trade_price": 1289.8736366484889,
+            "quantity": 20,
+            "currency": "USD"
+        },
+        "event_type": "open_trade",
+        "event_id": 6004677780660780000
+    },
+    "hedge_codes": [
+        "HBGV_BSE",
+        "HGBGV_AU"
+    ]
+}
